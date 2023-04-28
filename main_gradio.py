@@ -66,10 +66,9 @@ def process_image(image_src, options, devices, processor):
     # Combine the outputs into a single HTML output
 
     custom_output = f'''
-    <h2>Image->Text->Image:</h2>
+    <h2>Hasil Deskripsi:</h2>
     <div style="display: flex; flex-wrap: wrap;">
         <div style="flex: 1;">
-            <h3>Image2Text</h3>
             <p>{gen_text}</p>
         </div>
         
