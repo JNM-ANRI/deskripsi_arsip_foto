@@ -23,7 +23,7 @@ class ImageToText:
         prompt_suffix = """\n Ada beberapa aturan:
         Buatlah paragraf informatif dan ringkas yang mendeskripsikan konten foto, berdasarkan aturan-aturan berikut ini:
         1. Berikan deskripsi singkat dan informatif tentang konten foto, termasuk apa yang terjadi, subjek utama, dan fitur menonjol lainnya.
-        2. Sertakan kata kunci yang relevan untuk foto, meliputi subjek, objek, warna, tema, dan fitur penting lainnya.
+        2. Sertakan kata kunci yang relevan untuk foto, meliputi subjek, objek, tema, dan fitur penting lainnya.
         3. Tunjukkan objek, warna (jika bukan foto hitam putih), dan posisi dengan menggunakan kata benda daripada koordinat untuk informasi posisi setiap objek.
         4. Batasi deskripsi menjadi tidak lebih dari 7 kalimat.
         5. Sajikan deskripsi konten dalam satu paragraf.
