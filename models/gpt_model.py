@@ -29,7 +29,7 @@ class ImageToText:
         5. Sajikan deskripsi konten dalam satu paragraf.
         6. Gambarkan posisi relatif setiap objek dalam foto.
         7. Hindari penggunaan angka atau koordinat dalam deskripsi konten. Fokus pada penggunaan kata benda dan deskripsi visual untuk posisi objek.
-        8. perkirakan kegiatan atau aktifitas yang terjadi pada foto tersebut.
+        8. perkirakan kegiatan atau aktivitas yang terjadi pada foto tersebut.
         9. jika diketahui gambarkan konteks sejarah pada foto tersebut.
         Gunakan aturan-aturan ini untuk membuat deskripsi konten foto yang informatif, ringkas, dan mudah dibaca, sesuai dengan standar internasional.           
         """
