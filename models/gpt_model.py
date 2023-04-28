@@ -24,18 +24,35 @@ class ImageToText:
         Buatlah paragraf informatif dan ringkas yang mendeskripsikan konten foto, berdasarkan aturan-aturan berikut ini:
         1. Berikan deskripsi singkat dan informatif tentang konten foto, termasuk apa yang terjadi, subjek utama, dan fitur menonjol lainnya.
         2. Sertakan kata kunci yang relevan untuk foto, meliputi subjek, objek, tema, dan fitur penting lainnya.
-        3. Tunjukkan objek, warna (jika bukan foto hitam putih), dan posisi dengan menggunakan kata benda daripada koordinat untuk informasi posisi setiap objek.
         4. Batasi deskripsi menjadi tidak lebih dari 7 kalimat.
         5. Sajikan deskripsi konten dalam satu paragraf.
         6. Gambarkan posisi relatif setiap objek dalam foto.
         7. Hindari penggunaan angka atau koordinat dalam deskripsi konten. Fokus pada penggunaan kata benda dan deskripsi visual untuk posisi objek.
-        gunakan prinsip 5w1h (what, when, where, who, why, how) untuk membuat deskripsi konten foto yang informatif, ringkas, dan mudah dibaca, sesuai dengan standar internasional.                
+        gunakan prinsip 5w1h (what, when, where, who, why, how) untuk membuat deskripsi konten foto yang informatif, ringkas, dan mudah dibaca, sesuai dengan standar internasional
         8. susun deskripsi konten foto dengan gaya naratif yang alamiah dan mudah dibaca.
         """
         # template = f"{prompt_prefix_1}{prompt_prefix_2}{{width}}X{{height}}{prompt_prefix_3}{{caption}}{prompt_prefix_4}{{dense_caption}}{prompt_prefix_5}{{region_semantic}}{prompt_suffix}"
         template = f"{prompt_prefix_1}{prompt_prefix_3}{{caption}}{prompt_prefix_4}{{dense_caption}}{prompt_prefix_5}{{region_semantic}}{prompt_suffix}"
         return template
 
+    # 3.
+    # Tunjukkan
+    # objek, warna(hanya
+    # untuk
+    # foto
+    # berwarna), dan
+    # posisi
+    # dengan
+    # menggunakan
+    # kata
+    # benda
+    # daripada
+    # koordinat
+    # untuk
+    # informasi
+    # posisi
+    # setiap
+    # objek.
     # 8. perkirakan kegiatan atau aktivitas yang terjadi pada foto tersebut.
     # 9. ceritakan konteks sejarah atau budaya yang relevan untuk foto tersebut.
     # Show object, color and position.
