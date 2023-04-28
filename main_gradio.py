@@ -47,7 +47,7 @@ def pil_image_to_base64(image):
 
 
 def add_logo():
-    with open("examples/logo.png", "rb") as f:
+    with open("examples/anri.jpg", "rb") as f:
         logo_base64 = base64.b64encode(f.read()).decode()
     return logo_base64
 
@@ -115,7 +115,7 @@ controlnet_device = gr.components.Radio(choices=['cuda', 'cpu'], default='cpu', 
 logo_base64 = add_logo()
 # Create the title with the logo
 title_with_logo = f'<img src="data:image/jpeg;base64,{logo_base64}" width="400" style="vertical-align: middle;"> ' \
-                  f'Understanding Image with Text'
+                  f'Deskripsi Arsip Foto dengan AI'
 
 # Create Gradio interface
 interface = gr.Interface(
@@ -133,9 +133,14 @@ interface = gr.Interface(
     outputs=gr.outputs.HTML(),
     title=title_with_logo,
     description="""
-    This code support image to text transformation. Then the generated text can do retrieval, question answering et al to conduct zero-shot.
-    \n Semantic segment is very slow in cpu, best use on gpu.
-    \n If you have only 8GB Memory GPU, please set device as cpu for IC and SS.
+    Aplikasi Deskripsi Arsip Foto dengan AI ini dirancang untuk mendemonstrasikan bagaimana teknologi kecerdasan artifisial (AI) dapat digunakan dalam bidang kearsipan 
+    untuk membantu arsiparis dalam mendeskripsikan arsip foto.Dengan penerapan teknologi ini, diharapkan dapat mempercepat proses deskripsi arsip foto, meningkatkan kualitas 
+    deskripsi,menemukan fakta dan gagasan baru dari arsip foto, serta meningkatkan efisiensi dan efektivitas pendeskripsian arsip foto.  
+   
+    Meskipun hasil yang dihasilkan saat ini mungkin belum sempurna dan akurasinya belum tinggi, kami yakin bahwa dengan terus menyempurnakan dan memperkaya data serta menambah 
+    wawasan sejarah, kualitas dan ketepatan deskripsi akan terus meningkat.  
+    
+    Kemudahan dan efisiensi yang dibawa oleh teknologi AI dalam pengelolaan arsip foto merupakan perubahan yang revolusioner dalam dunia kearsipan.
     """
 )
 
