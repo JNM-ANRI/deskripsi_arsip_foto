@@ -29,8 +29,7 @@ class ImageToText:
         5. Sajikan deskripsi konten dalam satu paragraf.
         6. Gambarkan posisi relatif setiap objek dalam foto.
         7. Hindari penggunaan angka atau koordinat dalam deskripsi konten. Fokus pada penggunaan kata benda dan deskripsi visual untuk posisi objek.
-
-        Gunakan aturan-aturan ini untuk membuat deskripsi konten foto yang informatif, ringkas, dan mudah dibaca, sesuai dengan standar internasional.           
+        gunakan prinsip 5w1h (what, when, where, who, why, how) untuk membuat deskripsi konten foto yang informatif, ringkas, dan mudah dibaca, sesuai dengan standar internasional.                
         """
         # template = f"{prompt_prefix_1}{prompt_prefix_2}{{width}}X{{height}}{prompt_prefix_3}{{caption}}{prompt_prefix_4}{{dense_caption}}{prompt_prefix_5}{{region_semantic}}{prompt_suffix}"
         template = f"{prompt_prefix_1}{prompt_prefix_3}{{caption}}{prompt_prefix_4}{{dense_caption}}{prompt_prefix_5}{{region_semantic}}{prompt_suffix}"
