@@ -143,5 +143,8 @@ interface = gr.Interface(
     """
 )
 
+ip_address = "172.16.20.185"
+
+
 # Launch the interface
-interface.launch()
+interface.launch(server_name=ip_address, debug=True)
