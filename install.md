@@ -1,10 +1,10 @@
-# 1. Installment
+# 1. Pemasangan
 
-### 1.1 Download Pretrained Model
-First cd in the project path, then download the pretrained model from Segment Anything and grit.
+### 1.1 Unduh Model yang Sudah Dilatih
+Pertama, navigasikan ke direktori proyek, kemudian unduh model yang sudah dilatih dari Segment Anything dan grit.
 
 ```bash
-cd [YOUR_PATH_TO_THIS_PROJECT]
+cd [PATH_KE_PROYEK_INI]
 mkdir pretrained_models
 cd pretrained_models
 wget -c https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
@@ -13,9 +13,9 @@ wget -c https://datarelease.blob.core.windows.net/grit/models/grit_b_densecap_ob
 cd ..
 ```
 
-### 1.2 Install Environment
+### 1.2 Pemasangan Lingkungan
 
-Simply run
+Jalankan perintah berikut
 
 ```
 pip install -r requirements.txt
