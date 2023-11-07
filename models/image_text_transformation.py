@@ -51,7 +51,7 @@ class ImageTextTransformation:
                                                    captioner_base_model=self.args.captioner_base_model)
         self.dense_caption_model = DenseCaptioning(device=self.args.dense_caption_device)
         self.gpt_model = ImageToText(openai_key)
-        self.controlnet_model = TextToImage(device=self.args.contolnet_device)
+        self.controlnet_model = TextToImage(device=self.args.controlnet_device)
         self.region_semantic_model = RegionSemantic(device=self.args.semantic_segment_device,
                                                     image_caption_model=self.image_caption_model,
                                                     region_classify_model=self.args.region_classify_model,

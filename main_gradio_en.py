@@ -66,7 +66,7 @@ def process_image(image_src, options, devices, processor):
     # Combine the outputs into a single HTML output
 
     custom_output = f'''
-    <h2>Hasil Deskripsi:</h2>
+    <h2>Description Result:</h2>
     <div style="display: flex; flex-wrap: wrap;">
         <div style="flex: 1;">
             <p>{gen_text}</p>
@@ -114,7 +114,7 @@ controlnet_device = gr.components.Radio(choices=['cuda', 'cpu'], default='cpu', 
 logo_base64 = add_logo()
 # Create the title with the logo
 title_with_logo = f'<img src="data:image/jpeg;base64,{logo_base64}" width="400" style="vertical-align: middle;"> ' \
-                  f'Deskripsi Arsip Foto dengan AI'
+                  f'Photo Archival Description with AI'
 
 # Create Gradio interface
 interface = gr.Interface(
@@ -131,16 +131,13 @@ interface = gr.Interface(
             )],
     outputs=gr.outputs.HTML(),
     title=title_with_logo,
-    description="""
-    Aplikasi Deskripsi Arsip Foto dengan AI ini dirancang untuk mendemonstrasikan bagaimana teknologi kecerdasan artifisial (AI) dapat digunakan dalam bidang kearsipan 
-    untuk membantu arsiparis dalam mendeskripsikan arsip foto.Dengan penerapan teknologi ini, diharapkan dapat mempercepat proses deskripsi arsip foto, meningkatkan kualitas 
-    deskripsi,menemukan fakta dan gagasan baru dari arsip foto, serta meningkatkan efisiensi dan efektivitas pendeskripsian arsip foto.  
-   
-    Meskipun hasil yang dihasilkan saat ini mungkin belum sempurna dan akurasinya belum tinggi, kami yakin bahwa dengan terus menyempurnakan dan memperkaya data serta menambah 
-    wawasan sejarah, kualitas dan ketepatan deskripsi akan terus meningkat.  
-    
-    Kemudahan dan efisiensi yang dibawa oleh teknologi AI dalam pengelolaan arsip foto merupakan perubahan yang revolusioner dalam dunia kearsipan.
-    """
+    description="""This AI-based Photo Archive Description application demonstrates the potential of artificial intelligence (AI) technology in the field of archiving. 
+    It is designed to aid archivists in the description of photo archives, with an aim to enhance efficiency and effectiveness. By integrating AI technology, we expect to 
+    accelerate the photo archive description process, improve description quality, and uncover new facts and ideas hidden within photo archives. While the current results 
+    may not be perfect and the accuracy isn't high yet, we are confident that ongoing data refinement and expansion of our historical insights will lead to continual 
+    improvement in the quality and accuracy of the descriptions. AI technology's contribution to the management of photo archives signifies a transformative shift in the archiving world, 
+    offering unprecedented convenience and efficiency."""
+
 )
 
 ip_address = "172.16.20.185"
