@@ -1,3 +1,10 @@
+```
+git clean -fd
+git checkout -b prompt-indo origin/prompt-indo
+```
+
+
+
 #### Doing
 - [ ] Merekognisi dan mendeteksi tokoh sejarah, misalnya(tokoh pada kabinet kerja).
 - [ ] Menerima input data foto secara masal.
@@ -8,6 +15,13 @@
 ##  Installation
 
 Cara instalasi dapat dilihat di [install.md](install.md).
+
+
+###Persiapkan OpenAI API key
+```
+export OPENAI_KEY=[YOUR KEY HERE]
+
+```
 
 
 ## 2. Start
