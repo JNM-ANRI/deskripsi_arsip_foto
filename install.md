@@ -1,4 +1,4 @@
-# 1. Pemasangan
+# 1. Instalasi
 
 ### 1.1 Unduh Model yang Sudah Dilatih
 Pertama, navigasikan ke direktori proyek, kemudian unduh model yang sudah dilatih dari Segment Anything dan grit.
