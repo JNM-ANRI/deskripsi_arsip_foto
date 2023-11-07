@@ -19,7 +19,9 @@ Cara instalasi dapat dilihat di [install.md](install.md).
 
 ### Persiapkan OpenAI API key
 ```
-export OPENAI_KEY=[YOUR KEY HERE]
+echo 'export OPENAI_KEY=yourkeyhere' >> ~/.bashrc
+source ~/.bashrc
+
 
 ```
 
