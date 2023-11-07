@@ -7,7 +7,7 @@
 
 ##  Installation
 
-Please find installation instructions in [install.md](install.md).
+Cara instalasi dapat dilihat di [install.md](install.md).
 
 
 ## 2. Start
