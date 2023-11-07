@@ -17,7 +17,7 @@ git checkout -b prompt-indo origin/prompt-indo
 Cara instalasi dapat dilihat di [install.md](install.md).
 
 
-###Persiapkan OpenAI API key
+### Persiapkan OpenAI API key
 ```
 export OPENAI_KEY=[YOUR KEY HERE]
 
