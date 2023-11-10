@@ -16,8 +16,12 @@ cara 4
 ```
 whereis cuda
 ```
-
-
+> Jika sudah diketahui lokasi CUDA
+```
+export CUDA_HOME=/path/to/your/cuda
+```
+contoh: 
+export CUDA_HOME=/usr/include/cuda
 
 # Persiapan Sistem  
 ```
