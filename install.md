@@ -1,4 +1,25 @@
-# Persiapan Awal 
+# Periksa kebutuhan Sistem 
+Deskripsi arsip membutuhkan CUDA, periksa apakah driver cuda sudah terinstall pada sistem 
+cara 1
+```
+nvcc --version
+```
+cara 2
+```
+ls /usr/local/cuda
+```
+cara 3
+```
+nvidia-smi
+```
+cara 4
+```
+whereis cuda
+```
+
+
+
+# Persiapan Sistem  
 ```
 conda create --name i2p python=3.8 -y  
 conda activate i2p   
