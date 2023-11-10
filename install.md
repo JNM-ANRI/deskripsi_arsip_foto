@@ -11,7 +11,11 @@ pip install -r requirements.txt
 pip install -U transformers  
 pip install openai  
 pip install --upgrade diffusers[torch]  
-pip install setuptools==59.5.0  
+
+pip install setuptools==59.5.0
+atau
+pip install setuptools==60.2.0
+
 pip install git+https://github.com/facebookresearch/segment-anything.git  
 pip install -U openmim  
 mim install mmcv  
