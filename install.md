@@ -37,11 +37,3 @@ wget -c https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 wget -c https://datarelease.blob.core.windows.net/grit/models/grit_b_densecap_objectdet.pth
 cd ..
 ```
-
-### 1.2 Pemasangan Lingkungan
-
-Jalankan perintah berikut
-
-```
-pip install -r requirements.txt
-```
