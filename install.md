@@ -23,6 +23,11 @@ export CUDA_HOME=/path/to/your/cuda
 contoh: 
 export CUDA_HOME=/usr/include/cuda
 
+# Install Cuda di ubuntu
+```
+sudo apt install nvidia-cuda-toolkit
+```
+
 # Persiapan Sistem  
 ```
 conda create --name i2p python=3.8 -y  
