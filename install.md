@@ -1,18 +1,14 @@
 # Periksa kebutuhan Sistem 
-Deskripsi arsip membutuhkan CUDA, periksa apakah driver cuda sudah terinstall pada sistem 
+Deskripsi arsip membutuhkan CUDA, periksa apakah driver cuda sudah terinstall pada sistem    
 cara 1
 ```
 nvcc --version
 ```
 cara 2
 ```
-ls /usr/local/cuda
-```
-cara 3
-```
 nvidia-smi
 ```
-cara 4
+cara 3
 ```
 whereis cuda
 ```
