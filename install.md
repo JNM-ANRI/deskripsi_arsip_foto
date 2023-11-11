@@ -18,9 +18,16 @@ export CUDA_HOME=/path/to/your/cuda
 ```
 contoh: 
 ```
-export CUDA_HOME=/usr/lib/cuda
+export PATH=/usr/lib/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
 ```
-
+membuat permanen 
+```
+nano ~/.bashrc
+export PATH=/usr/lib/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
+source ~/.bashrc
+```
 # Install Cuda di ubuntu
 ```
 sudo apt install nvidia-cuda-toolkit
