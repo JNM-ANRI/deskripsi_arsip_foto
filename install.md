@@ -21,7 +21,9 @@ whereis cuda
 export CUDA_HOME=/path/to/your/cuda
 ```
 contoh: 
-export CUDA_HOME=/usr/include/cuda
+```
+export CUDA_HOME=/usr/lib/cuda
+```
 
 # Install Cuda di ubuntu
 ```
